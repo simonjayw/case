@@ -1,0 +1,171 @@
+body,h1,h2,h3,p,input,ul {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+input {
+	outline: none;
+	border: 1px solid #999;
+}
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+
+body {
+	background: url(../img/bg.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+/*头部*/
+nav {
+	position: fixed;
+	box-sizing: border-box;
+	background-color: rgba(0, 127, 158, 0.1);
+	color: #fff;
+	height: 45px;
+	width: 100%;
+	padding: 0 30px 0 30px;
+	font-family: 'Microsoft Yahei';
+}
+.nav_head {
+	float: left;
+	line-height: 45px;
+}
+.nav_msg {
+	float: right;
+	line-height: 45px;
+	margin-right: 100px;
+}
+.nav_msg a{
+	color: #80dfff;
+}
+
+/*主体*/
+.contain {
+	font-family: 'Microsoft Yahei';
+	min-height: 768px;
+	margin: 0 auto;
+}
+
+/*登录界面*/
+
+.login {
+	box-sizing: border-box;
+	border-radius: 15px;
+	box-shadow: 2px 2px 2px #333;
+	padding: 20px 30px;
+	width: 500px;
+	height: 300px;
+	background: rgba(0, 127, 158, 0.3);
+	position: relative;
+	top: 100px;
+	left: 50%;
+	margin-left: -250px;
+	position: relative;
+	color: #fff;
+	display: none;
+}
+/*登录头部*/
+.login_head {
+	text-align: center;
+	padding: 6px 0;
+	border-bottom: 2px solid #009dd2;
+}
+/*登录表单部分*/
+.login_content {
+	padding: 20px 50px;
+}
+.login_content input {
+	box-sizing: border-box;
+	height: 40px;
+	width: 100%;
+	padding: 5px 20px;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#signIn {
+	height: 40px;
+	background-color: #009dd2;
+	border: none;
+	color: #fff;
+	font-size: 22px;
+	cursor: pointer;
+	text-align: center;
+	letter-spacing: 2rem;
+}
+/*登录脚部*/
+.login_footer {
+	height: 30px;
+	width: 440px;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 20px;
+}
+.login_footer a {
+	color: #eee;
+}
+.login_footer .login_forget{
+	float: left;
+	margin-left: 50px;
+}
+.login_footer .login_register{
+	float: right;
+	margin-right: 50px;
+}
+
+
+/*注册界面*/
+
+.register {
+	box-sizing: border-box;
+	width: 980px;
+	height: 600px;
+	background: rgba(255, 255, 255,0.6);
+	margin: 80px auto 0 auto;
+	padding: 50px;
+	display: none;
+}
+.register .register_head {
+	color: #007da7;
+	font-size: 28px;
+	font-weight: normal;
+}
+.register .register_content {
+	margin-top: 50px;
+}
+.register .register_content .register_from {
+	margin-bottom: 25px;
+}
+.register .register_content .register_from label {
+	display: inline-block;
+	width: 280px;
+	color: #333;
+	text-align: right;
+	font-size: 18px;
+}
+.register .register_content .register_from input {
+	box-sizing: border-box;
+	padding: 5px 10px;
+	height: 44px;
+    width: 320px;
+    border: solid 1px #ddd;
+	font-size: 18px;
+}
+.register .register_content .register_from .register_btn {
+	background: #007da7;
+	color: #fff;
+	letter-spacing: 2rem;
+	font-size: 22px;
+	cursor: pointer;
+	border: none;
+}
